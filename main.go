@@ -56,7 +56,7 @@ func run() {
 
 	must(cmd.Start())
 
-	fmt.Printf("\n⚡ SUCCESS! Cell spawned completely isolated from host.\n")
+	fmt.Printf("\nSUCCESS! Cell spawned completely isolated from host.\n")
 	fmt.Printf("..TRACKING PID ON HOST: %d\n", cmd.Process.Pid)
 	fmt.Printf("..FILESYSTEM JAIL DIRECTORY: %s\n\n", cellPath)
 
